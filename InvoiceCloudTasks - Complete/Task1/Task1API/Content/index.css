@@ -1,0 +1,54 @@
+﻿
+.error {
+    outline: 1px solid red;
+}
+
+.input-button {
+    width: 100%;
+    outline: none;
+}
+
+.form-control {
+    margin-top: 1vh;
+}
+
+#addButton {
+    outline: none;
+}
+
+#button-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+#customer-container {
+    margin-top: 2vh;
+}
+
+#errorWarning {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    color: red;
+    font-size: 2.5vh;
+}
+
+#form-row {
+    justify-content: center;
+    padding-left: 20vw;
+    padding-right: 10vw;
+}
+
+#title-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#table-row {
+    display: flex;
+    justify-content: center;
+}

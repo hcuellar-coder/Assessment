@@ -1,0 +1,17 @@
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\bin\Debug\Task2Services.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\bin\Debug\Task2Services.pdb
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\obj\Debug\Task2Services.csproj.CoreCompileInputs.cache
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\obj\Debug\Task2Services.csproj.CopyComplete
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\obj\Debug\Task2Services.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks\Task2\Task2Services\obj\Debug\Task2Services.pdb
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\bin\Debug\Task2Services.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\bin\Debug\Task2Services.pdb
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\obj\Debug\Task2Services.csprojAssemblyReference.cache
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\obj\Debug\Task2Services.csproj.CoreCompileInputs.cache
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\obj\Debug\Task2Services.csproj.CopyComplete
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\obj\Debug\Task2Services.dll
+C:\Users\herib\Desktop\InvoiceCloudTasks - Copy\Task2\Task2Services\obj\Debug\Task2Services.pdb
