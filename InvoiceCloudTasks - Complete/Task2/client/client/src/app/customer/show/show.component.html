@@ -1,0 +1,83 @@
+<!-- Button trigger modal -->
+<button type="button" id="addButton" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
+    (click)="addClick()" data-backdrop="static" data-keyboard="false">
+    Add Customer
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{ModalTitle}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeClick()"
+                    #closeButton>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <app-add-edit [cust]="cust" *ngIf="ActivateAddEdit" (closeModal)="childCloseModal()"></app-add-edit>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+            </div>
+            <div class="modal-body">
+                <button type="button" class="btn btn-secondary btn-lg btn-block" data-dismiss="modal"
+                    data-backdrop="static" data-keyboard="false">No</button>
+                <button type="button" class="btn btn-danger btn-lg btn-block" data-dismiss="modal"
+                    (click)="deleteClick(cust)" data-backdrop="static" data-keyboard="false">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<table id="customerTable" class="table table-borderless">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of CustomerList">
+            <td>{{customer.CustomerID}}</td>
+            <td>{{customer.Name}}</td>
+            <td>{{customer.Address}}</td>
+            <td>{{customer.City}}</td>
+            <td>{{customer.State}}</td>
+            <td>{{customer.Zip}}</td>
+            <td>
+                <button type="button" class="btn btn-light" id="editButton" data-toggle="modal" data-target="#myModal"
+                    (click)="editClick(customer)">
+                    <img src="./assets/edit-icon.svg" />
+                </button>
+                <button type="button" class="btn btn-light" id="deleteButton" data-toggle="modal"
+                    data-target="#deleteModal" (click)="deletePrep(customer)" data-backdrop="static"
+                    data-keyboard="false">
+                    <img src="./assets/trash-icon.svg" />
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- <button type="button" class="btn btn-light" id="deleteButton" (click)="deleteClick(customer)" data-target="#myModal"></button> -->
+
+<!-- <button type="button" id="addButton" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
+    (click)="addClick()">
+    Add Customer
+</button> -->
